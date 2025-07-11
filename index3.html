@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Tiend Kennedy</title>
+  <title>Tienda Kennedy</title>
   <link rel="stylesheet" href="estilos2.css">
   <script src="script.js"></script>
 </head>
@@ -34,16 +34,21 @@
   </main>
 
   <section>
-    <h2>🛒 Tu carrito:</h2>
-    <ul id="lista-carrito"></ul>
-    <p><strong>Total:</strong> <span id="total-compra">S/ 0.00</span></p>
-    <button id="vaciar-carrito">Vaciar carrito</button>
-    <button id="enviar-whatsapp">Finalizar pedido por enviar-whatsapp</button>
-  </section>
+<h2>🛒 Tu carrito (<span id="cantidad-productos">0</span> productos):</h2>
+  <ul id="lista-carrito"></ul>
+
+<p><strong>Total:</strong> <span id="total-compra">S/ 0.00</span></p>
+<p><strong>Cantidad de productos:</strong> <span id="cantidad-productos">0</span></p>  
+
+  <button id="vaciar-carrito">Vaciar carrito</button>
+  <button id="enviar-whatsapp">Finalizar pedido por enviar-whatsapp</button>
+</section>
+
 
   <footer>
-    <p>© 2025 Tienda Kennedy. Todos los derechos reservados.</p>
+    <p>© 2025 Tienda Kaelion. Todos los derechos reservados.</p>
   </footer>
+  <div id="toast" class="oculto">Producto agregado al carrito</div>
   <script src="script.js"></script>
 </body>
 </html>
