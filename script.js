@@ -43,6 +43,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     mensaje += `\nTotal: S/ ${total.toFixed(2)}`;
+    mensaje += "\n¡Si no pagas eres gay! 😄"
 
     const numero = "51918079367"; // Tu número de WhatsApp
     const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensaje)}`;
